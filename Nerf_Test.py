@@ -11,7 +11,7 @@ from model import Voxels,Nerf
 from ml_helpers import training
 import rendering
 
-data_set_path = '/home/eiyike/Desktop/phdproject/MY_NERf2222/new_code_update1/Dataset'
+data_set_path = './Dataset'
 mode = 'test'
 target_size = (400,400)
 dataset = data_preprocessing(data_set_path,mode,target_size=target_size)

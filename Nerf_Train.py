@@ -12,7 +12,7 @@ from ml_helpers import training
 import rendering
 
 torch.cuda.empty_cache()
-data_set_path = '/home/eiyike/Desktop/phdproject/MY_NERf2222/new_code_update1/Dataset'
+data_set_path = './Dataset'
 
 
 mode = 'train'
